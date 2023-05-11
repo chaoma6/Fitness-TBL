@@ -13,23 +13,23 @@ const classes: Array<ClassType> = [
   {
     name: "Weight Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Build strength and muscle with our weight training classes. Led by expert trainers, our classes use free weights and resistance machines to help you reach your fitness goals.",
     image: image1,
   },
   {
     name: "Yoga Classes",
+    description:
+      "Find your zen with our yoga classes. From gentle flow to power yoga, our classes cater to all levels and styles. Join our community and discover the many benefits of yoga.",
     image: image2,
   },
   {
     name: "Ab Core Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     image: image3,
   },
   {
     name: "Adventure Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Take your workout to the next level with our adventure classes. From rock climbing to obstacle courses, our classes offer a fun and challenging way to stay fit and active.",
     image: image4,
   },
   {
@@ -39,7 +39,7 @@ const classes: Array<ClassType> = [
   {
     name: "Training Classes",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "Get personalized training and support with our training classes. Led by expert trainers, our classes offer a customized approach to fitness, tailored to your unique needs and goals.",
     image: image6,
   },
 ];
@@ -68,10 +68,8 @@ const OurClasses = ({ setSelectedPage }: Props) => {
           <div className="md:w-3/5">
             <HText>OUR CLASSES</HText>
             <p className="py-5">
-              Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-              tellus quam porttitor. Mauris velit euismod elementum arcu neque
-              facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-              enim mattis odio in risus nunc.
+              Discover the power of variety with our diverse selection of
+              classes.
             </p>
           </div>
         </motion.div>
